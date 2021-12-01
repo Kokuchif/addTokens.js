@@ -25,9 +25,6 @@ async function addCurrencies() {
 
     if (response.status == 2000) {
         alert(`${tokens} tokens and 3000 XP added to your account!`);
-    } else {
-        alert('An error occured.');
-    };
 
 };
 
